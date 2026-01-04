@@ -1,62 +1,62 @@
 // Inject all sections into the page
 document.body.insertAdjacentHTML('beforeend', `
     <!-- About Section -->
-    <section id="about" class="py-24 relative section-hidden">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div class="relative">
-                    <div class="absolute -top-8 -left-8 w-72 h-72 bg-accent/10 rounded-full blur-3xl"></div>
-                    <div class="relative glass rounded-3xl p-2">
-                        <div class="bg-gradient-to-br from-secondary to-primary rounded-2xl p-8">
-                            <div class="flex items-center gap-6 mb-8">
-                                <div class="w-24 h-24 bg-gradient-to-br from-accent to-gold rounded-2xl flex items-center justify-center text-4xl font-serif font-bold text-primary">AS</div>
+    <section id="about" class="py-16 sm:py-24 relative section-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+                <div class="relative order-2 lg:order-1">
+                    <div class="absolute -top-8 -left-8 w-48 sm:w-72 h-48 sm:h-72 bg-accent/10 rounded-full blur-3xl hidden sm:block"></div>
+                    <div class="relative glass rounded-2xl sm:rounded-3xl p-2">
+                        <div class="bg-gradient-to-br from-secondary to-primary rounded-xl sm:rounded-2xl p-5 sm:p-8">
+                            <div class="flex items-center gap-4 sm:gap-6 mb-6 sm:mb-8">
+                                <div class="w-16 h-16 sm:w-24 sm:h-24 bg-gradient-to-br from-accent to-gold rounded-xl sm:rounded-2xl flex items-center justify-center text-2xl sm:text-4xl font-serif font-bold text-primary flex-shrink-0">AS</div>
                                 <div>
-                                    <h3 class="text-2xl font-serif font-bold">Adv. Arun Sharma</h3>
-                                    <p class="text-accent">Senior Tax Advocate</p>
+                                    <h3 class="text-xl sm:text-2xl font-serif font-bold">Adv. Arun Sharma</h3>
+                                    <p class="text-accent text-sm sm:text-base">Senior Tax Advocate</p>
                                 </div>
                             </div>
-                            <div class="space-y-4">
+                            <div class="space-y-3 sm:space-y-4">
                                 <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                     </svg>
-                                    <span class="text-gray-300">LL.B, Bar Council of India Registered</span>
+                                    <span class="text-gray-300 text-sm sm:text-base">LL.B, Bar Council of India Registered</span>
                                 </div>
                                 <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                     </svg>
-                                    <span class="text-gray-300">Certified Tax Practitioner (CTP)</span>
+                                    <span class="text-gray-300 text-sm sm:text-base">Certified Tax Practitioner (CTP)</span>
                                 </div>
                                 <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                     </svg>
-                                    <span class="text-gray-300">GST Practitioner (GSTP)</span>
+                                    <span class="text-gray-300 text-sm sm:text-base">GST Practitioner (GSTP)</span>
                                 </div>
                                 <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                     </svg>
-                                    <span class="text-gray-300">15+ Years of Practice Experience</span>
+                                    <span class="text-gray-300 text-sm sm:text-base">15+ Years of Practice Experience</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <span class="text-accent font-semibold tracking-wider text-sm">ABOUT US</span>
-                    <h2 class="font-serif text-4xl lg:text-5xl font-bold mt-4 mb-6">Your Trusted Partner in <span class="gradient-text">Tax Solutions</span></h2>
-                    <p class="text-gray-300 text-lg leading-relaxed mb-6">With over 15 years of dedicated practice in Income Tax, GST, and legal representation, we have successfully resolved 500+ cases across India. Our expertise spans from simple ITR filings to complex tribunal matters.</p>
-                    <p class="text-gray-300 text-lg leading-relaxed mb-8">We believe in transparent communication, ethical practice, and achieving the best possible outcome for every client. Your financial peace of mind is our priority.</p>
-                    <div class="grid grid-cols-2 gap-6">
-                        <div class="glass rounded-xl p-6 card-hover">
-                            <div class="text-3xl font-bold gradient-text mb-2">Delhi NCR</div>
-                            <div class="text-sm text-gray-400">Primary Office</div>
+                <div class="order-1 lg:order-2">
+                    <span class="text-accent font-semibold tracking-wider text-xs sm:text-sm">ABOUT US</span>
+                    <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-4 sm:mb-6">Your Trusted Partner in <span class="gradient-text">Tax Solutions</span></h2>
+                    <p class="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed mb-4 sm:mb-6">With over 15 years of dedicated practice in Income Tax, GST, and legal representation, we have successfully resolved 500+ cases across India. Our expertise spans from simple ITR filings to complex tribunal matters.</p>
+                    <p class="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8">We believe in transparent communication, ethical practice, and achieving the best possible outcome for every client. Your financial peace of mind is our priority.</p>
+                    <div class="grid grid-cols-2 gap-4 sm:gap-6">
+                        <div class="glass rounded-lg sm:rounded-xl p-4 sm:p-6 card-hover">
+                            <div class="text-xl sm:text-2xl lg:text-3xl font-bold gradient-text mb-1 sm:mb-2">Delhi NCR</div>
+                            <div class="text-xs sm:text-sm text-gray-400">Primary Office</div>
                         </div>
-                        <div class="glass rounded-xl p-6 card-hover">
-                            <div class="text-3xl font-bold gradient-text mb-2">Pan India</div>
-                            <div class="text-sm text-gray-400">Online Services</div>
+                        <div class="glass rounded-lg sm:rounded-xl p-4 sm:p-6 card-hover">
+                            <div class="text-xl sm:text-2xl lg:text-3xl font-bold gradient-text mb-1 sm:mb-2">Pan India</div>
+                            <div class="text-xs sm:text-sm text-gray-400">Online Services</div>
                         </div>
                     </div>
                 </div>
@@ -65,25 +65,25 @@ document.body.insertAdjacentHTML('beforeend', `
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-24 bg-gradient-to-b from-primary via-secondary/30 to-primary section-hidden">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <span class="text-accent font-semibold tracking-wider text-sm">OUR SERVICES</span>
-                <h2 class="font-serif text-4xl lg:text-5xl font-bold mt-4 mb-6">Comprehensive <span class="gradient-text">Tax Solutions</span></h2>
-                <p class="text-gray-300 text-lg max-w-2xl mx-auto">From basic filings to complex litigation, we handle all your tax matters with expertise and dedication.</p>
+    <section id="services" class="py-16 sm:py-24 bg-gradient-to-b from-primary via-secondary/30 to-primary section-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10 sm:mb-16">
+                <span class="text-accent font-semibold tracking-wider text-xs sm:text-sm">OUR SERVICES</span>
+                <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-4 sm:mb-6">Comprehensive <span class="gradient-text">Tax Solutions</span></h2>
+                <p class="text-gray-300 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">From basic filings to complex litigation, we handle all your tax matters with expertise and dedication.</p>
             </div>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
                 <!-- Service Card 1 -->
-                <div class="glass rounded-2xl p-8 card-hover group">
-                    <div class="w-16 h-16 bg-gradient-to-br from-accent/20 to-gold/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="glass rounded-xl sm:rounded-2xl p-5 sm:p-8 card-hover group">
+                    <div class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-accent/20 to-gold/20 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 sm:w-8 sm:h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Income Tax Returns</h3>
-                    <p class="text-gray-400 mb-4">Accurate ITR filing for individuals, HUF, firms, and companies. All forms including ITR-1 to ITR-7.</p>
-                    <ul class="space-y-2 text-sm text-gray-300">
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Income Tax Returns</h3>
+                    <p class="text-gray-400 text-sm sm:text-base mb-3 sm:mb-4">Accurate ITR filing for individuals, HUF, firms, and companies. All forms including ITR-1 to ITR-7.</p>
+                    <ul class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-300">
                         <li class="flex items-center gap-2"><span class="text-accent">✓</span> Salaried & Business Returns</li>
                         <li class="flex items-center gap-2"><span class="text-accent">✓</span> Capital Gains Filing</li>
                         <li class="flex items-center gap-2"><span class="text-accent">✓</span> Revised Returns</li>
@@ -91,15 +91,15 @@ document.body.insertAdjacentHTML('beforeend', `
                 </div>
 
                 <!-- Service Card 2 -->
-                <div class="glass rounded-2xl p-8 card-hover group">
-                    <div class="w-16 h-16 bg-gradient-to-br from-red-500/20 to-orange-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                        <svg class="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="glass rounded-xl sm:rounded-2xl p-5 sm:p-8 card-hover group">
+                    <div class="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-red-500/20 to-orange-500/20 rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 sm:w-8 sm:h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Tax Notice Handling</h3>
-                    <p class="text-gray-400 mb-4">Expert response and resolution for all types of income tax notices and scrutiny assessments.</p>
-                    <ul class="space-y-2 text-sm text-gray-300">
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Tax Notice Handling</h3>
+                    <p class="text-gray-400 text-sm sm:text-base mb-3 sm:mb-4">Expert response and resolution for all types of income tax notices and scrutiny assessments.</p>
+                    <ul class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-300">
                         <li class="flex items-center gap-2"><span class="text-accent">✓</span> Scrutiny Assessments</li>
                         <li class="flex items-center gap-2"><span class="text-accent">✓</span> Demand Notices</li>
                         <li class="flex items-center gap-2"><span class="text-accent">✓</span> Reassessment Cases</li>
@@ -174,55 +174,55 @@ document.body.insertAdjacentHTML('beforeend', `
     </section>
 
     <!-- Why Choose Us -->
-    <section class="py-24 relative section-hidden">
+    <section class="py-16 sm:py-24 relative section-hidden">
         <div class="absolute inset-0 bg-gradient-to-r from-accent/5 to-gold/5"></div>
-        <div class="max-w-7xl mx-auto px-6 relative">
-            <div class="text-center mb-16">
-                <span class="text-accent font-semibold tracking-wider text-sm">WHY CHOOSE US</span>
-                <h2 class="font-serif text-4xl lg:text-5xl font-bold mt-4 mb-6">The <span class="gradient-text">TaxPro Advantage</span></h2>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+            <div class="text-center mb-10 sm:mb-16">
+                <span class="text-accent font-semibold tracking-wider text-xs sm:text-sm">WHY CHOOSE US</span>
+                <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-4 sm:mb-6">The <span class="gradient-text">TaxPro Advantage</span></h2>
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
                 <div class="text-center group">
-                    <div class="w-20 h-20 mx-auto glass rounded-2xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-all duration-300">
-                        <span class="text-4xl">🎯</span>
+                    <div class="w-14 h-14 sm:w-20 sm:h-20 mx-auto glass rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-accent/20 transition-all duration-300">
+                        <span class="text-2xl sm:text-4xl">🎯</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">95% Success Rate</h3>
-                    <p class="text-gray-400">Proven track record in resolving complex tax matters</p>
+                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-3">95% Success Rate</h3>
+                    <p class="text-gray-400 text-xs sm:text-sm lg:text-base">Proven track record in resolving complex tax matters</p>
                 </div>
                 <div class="text-center group">
-                    <div class="w-20 h-20 mx-auto glass rounded-2xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-all duration-300">
-                        <span class="text-4xl">🔒</span>
+                    <div class="w-14 h-14 sm:w-20 sm:h-20 mx-auto glass rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-accent/20 transition-all duration-300">
+                        <span class="text-2xl sm:text-4xl">🔒</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">100% Confidential</h3>
-                    <p class="text-gray-400">Your financial information stays completely private</p>
+                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-3">100% Confidential</h3>
+                    <p class="text-gray-400 text-xs sm:text-sm lg:text-base">Your financial information stays completely private</p>
                 </div>
                 <div class="text-center group">
-                    <div class="w-20 h-20 mx-auto glass rounded-2xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-all duration-300">
-                        <span class="text-4xl">⚡</span>
+                    <div class="w-14 h-14 sm:w-20 sm:h-20 mx-auto glass rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-accent/20 transition-all duration-300">
+                        <span class="text-2xl sm:text-4xl">⚡</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Quick Resolution</h3>
-                    <p class="text-gray-400">Fast turnaround time for all tax matters</p>
+                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-3">Quick Resolution</h3>
+                    <p class="text-gray-400 text-xs sm:text-sm lg:text-base">Fast turnaround time for all tax matters</p>
                 </div>
                 <div class="text-center group">
-                    <div class="w-20 h-20 mx-auto glass rounded-2xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-all duration-300">
-                        <span class="text-4xl">💰</span>
+                    <div class="w-14 h-14 sm:w-20 sm:h-20 mx-auto glass rounded-xl sm:rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-accent/20 transition-all duration-300">
+                        <span class="text-2xl sm:text-4xl">💰</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Affordable Pricing</h3>
-                    <p class="text-gray-400">Transparent fees with no hidden charges</p>
+                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-3">Affordable Pricing</h3>
+                    <p class="text-gray-400 text-xs sm:text-sm lg:text-base">Transparent fees with no hidden charges</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Case Studies -->
-    <section id="cases" class="py-24 bg-gradient-to-b from-primary via-secondary/20 to-primary section-hidden">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <span class="text-accent font-semibold tracking-wider text-sm">SUCCESS STORIES</span>
-                <h2 class="font-serif text-4xl lg:text-5xl font-bold mt-4 mb-6">Real <span class="gradient-text">Case Studies</span></h2>
-                <p class="text-gray-300 text-lg max-w-2xl mx-auto">See how we've helped clients save money and resolve complex tax issues.</p>
+    <section id="cases" class="py-16 sm:py-24 bg-gradient-to-b from-primary via-secondary/20 to-primary section-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10 sm:mb-16">
+                <span class="text-accent font-semibold tracking-wider text-xs sm:text-sm">SUCCESS STORIES</span>
+                <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-4 sm:mb-6">Real <span class="gradient-text">Case Studies</span></h2>
+                <p class="text-gray-300 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">See how we've helped clients save money and resolve complex tax issues.</p>
             </div>
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
                 <div class="glass rounded-2xl overflow-hidden card-hover">
                     <div class="h-2 bg-gradient-to-r from-green-400 to-emerald-500"></div>
                     <div class="p-8">
